@@ -1,22 +1,7 @@
-# SEAR - speech expansion and reconstruction
+### SEAR - old code
 
-This repository contains code used in SEAR project, which ended in [Waspaa 2019 submission](https://github.com/PICTEC/SEAR/blob/master/docs/bin/WASPAA-final.pdf)
-and continuation of previous attempts for [ICASSP 2019 submission](https://www.cmsworkshops.com/ICASSP2019/Papers/Uploads/Proposals/PaperNum/4956/20181030064602_672782_4956.pdf)
-
-### Code structure
-
-Code related to the paper itself is contained in form of Jupyter notebooks in `notebooks` catalogue. The crucial ones that show training related to models presented in the paper are prefixed with `HYPO`. We've removed superfluous notebooks, but they're hidden in the git history.
-Note that results in the notebooks may be overriden by more recent runs. We tried to keep the code intact.
-
-The project has developed it's own legacy (sic!) code that is contained withing `loaders` folder. In the same 
-
-For the sake of evaluation, we've contained several recordings and models in `evaluation` folder. Jupyter notebooks for using these models and showing results are stored in this folder. Binary data associated with this folder is in 
-
-### Installation and usage
-
-All necessary packages should be in `requirements.txt` file. For tensorflow, please supply it yourself, as I've installed it from source.
-
-Majority of the notebooks use "Python3.6" kernel. This is due to a system upgrade that bumped up Python version during research. If your IPython doesn't have a kernel for 3.6, make one using e.g. [this tutorial][https://stackoverflow.com/questions/28831854/how-do-i-add-python3-kernel-to-jupyter-ipython]
+Old data for ICASSP submission. Please note that this folder is unordered and may contain defunct code.
+This is for reference of the results.
 
 ### Sources:
 
@@ -50,9 +35,3 @@ Field Recordings - Driving a Car by RutgerMuller - https://freesound.org/people/
 The Sea by digifishmusic - https://freesound.org/people/digifishmusic/packs/2617/
 FrogsAndCrickets_ExcerptB_JMA_24Bit_48k.wav by Greysound - https://freesound.org/people/greysound/sounds/32655/
 ```
-
-### Final words
-
-We plan to utilize some of the discoveries associated with the paper in development of an upgraded model. 
-
-Contact information: `pawel.tomasik@pictec.eu`
