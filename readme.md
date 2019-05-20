@@ -1,6 +1,7 @@
 # SEAR - speech expansion and reconstruction
 
-This repository contains code used in SEAR project, which ended in [ICASSP 2019 submission][https://www.cmsworkshops.com/ICASSP2019/Papers/Uploads/Proposals/PaperNum/4956/20181030064602_672782_4956.pdf].
+This repository contains code used in SEAR project, which ended in [Waspaa 2019 submission](https://github.com/PICTEC/SEAR/blob/master/docs/bin/WASPAA-final.pdf)
+and continuation of previous attempts for [ICASSP 2019 submission](https://www.cmsworkshops.com/ICASSP2019/Papers/Uploads/Proposals/PaperNum/4956/20181030064602_672782_4956.pdf)
 
 ### Code structure
 
